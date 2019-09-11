@@ -1,1 +1,15 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+.navbar {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 300;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('darkness.png');
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 100;
+  color: white;
+}
