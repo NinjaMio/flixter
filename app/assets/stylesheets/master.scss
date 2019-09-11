@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
 .navbar {
   font-family: 'Orbitron', sans-serif;
@@ -16,7 +17,7 @@
 }
 
 .hero {
-  background: image_url('hugues-de-buyer-mimeure-lQPEChtLjUo-unsplash.jpg') no-repeat center center fixed;
+  background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -48,4 +49,19 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .btn {
   border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  background: image_url('bg.png');
+}
+
+body {
+  background: image_url('bg.png');
+  font-family: 'Exo 2', sans-serif;
 }
