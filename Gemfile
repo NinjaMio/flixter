@@ -75,3 +75,9 @@ gem 'simple_form'
 gem 'devise'
 
 gem 'figaro'
+
+gem 'awesome_print'
+
+gem 'carrierwave'
+
+gem 'fog-aws'
